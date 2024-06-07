@@ -19,6 +19,11 @@ label.logo{
     font-weight: 900;
     font-style: italic;
 }
+img.ac{
+    width:6%;
+    vertical-align: middle;
+    ;
+}
 nav ul{
     float:right;
     margin-right:2%;
@@ -36,7 +41,7 @@ nav ul li a{
 }
 a.active,a:hover{
     background-color: black;
-    padding-bottom:7% ;
+    padding-bottom:6% ;
     padding-top: 4%;
 }
 .checkbtn{
@@ -52,11 +57,20 @@ a.active,a:hover{
     display:none;
 
 }
+.air{
+    margin-right: 1%;
+    width:20%;
+}
+.led{
+    margin-right: 1%;
+    width:20%;
+}
 @media (max-width: 1200px){
     label.logo{
-        font-size:150%;
+        font-size:130%;
         padding-left:3%;
     }
+    
     nav ul li a{
         font-size:100%;
 
@@ -65,6 +79,9 @@ a.active,a:hover{
 @media (max-width:920px){
     .checkbtn{
         display: block;
+    }
+    img.ac{
+        width:15%;
     }
     ul{
         position:fixed;
@@ -92,13 +109,28 @@ a.active,a:hover{
         left:0;
     }
 }
-
+.whatsapp{
+    width:20%;
+}
+.gmail{
+    width:10%;
+}
 .content{
-    background:url(./backgound6.png) no-repeat;
+    background:url(./backgound11.png) no-repeat;
     background-size: cover;
+    padding:2%
+}
+.head{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
 }
 .text{
     color:white;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
 }
 @media (max-width:920px){
     .bike{
@@ -107,4 +139,62 @@ a.active,a:hover{
     .air{
         width:60%;
     }
+    .mobile{
+        width:60%;
+        
+    }
+    .led{
+        width:50%;
+    }
+    .ref{
+        width:50%;
+    }
+    .whatsapp{
+        width:35%;
+    }
+    .gmail{
+        width:30%;
+    }
+}
+.footer{
+    background-color:silver;
+
+}
+.fa-instagram{
+    font-size: 500%;
+    color:white;
+    background-color: rgb(202, 13, 28);
+    border-radius:20%;
+    padding:0.3%;
+    margin-right: 2%;
+}
+.footer{
+    padding:2%;
+}
+.hf{
+    color:black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.foot:hover{
+    background-color:silver;
+}
+.cr{
+    color:black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 10%;
+    text-align: center;
+}
+.pf{
+    
+    margin-right: 7%;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: silver;
+    text-align: center;
 }
